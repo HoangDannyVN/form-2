@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng ký</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<script src="js/js.js"></script>
+	<h1>ĐĂNG KÝ HỌC TRỰC TUYẾN</h1>
+	<table>
+		<tr>
+			<td><p>Họ tên</p></td>
+			<td><input type="text" id="ht">
+				<a id="1"></a><th id="11"></th>
+			</td>
+		</tr>
+		<tr>
+			<td><p>Tên đăng nhập</p></td>
+			<td><input type="text" id="tdn">
+				<a id="2"></a><th id="22"></th>
+			</td>
+		</tr>
+		<tr>
+			<td><p>Số điện thoại</p></td>
+			<td><input type="text" id="sdt">
+				<a id="3"></a><th id="33"></th>
+			</td>
+		</tr>
+		<tr>
+			<td><p>Email</p></td>
+			<td><input type="text" id="em">
+				<a id="4"></a><th id="44"></th></td>
+		</tr>
+		<tr>
+			<td><p>Giới tính</p></td>
+			<td id="gtinh">
+				<input type="radio" name="gioitinh" value="nam"><span>Nam</span>
+				<input type="radio" name="gioitinh" value="nu"><span>Nữ</span>
+			<a id="5"></a>
+			</td>
+		</tr>
+		<tr>
+			<td><p>Khóa học đăng ký</p></td>
+			<td>
+				<select id="khoahoc">
+					<option value="1">Lập trình PHP</option>
+					<option value="2">Thiết kế đồ họa</option>
+					<option value="3">Kỹ thuật làm phim</option>
+					<option value="4">Lập trình Android</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><p>Khóa học đã tham gia</p></td>
+			<td id="dathamgia">
+				<input type="checkbox" value="ltphp"><span>Lập trình PHP</span>
+				<input type="checkbox" value="ltphp"><span>Thiết kế đồ họa</span>
+				<input type="checkbox" value="ltphp"><span>Kỹ thuật làm phim</span>
+				<input type="checkbox" value="ltphp"><span>Lập trình Android</span>
+			</td>
+		</tr>
+		<tr>
+			<td><p>Ghi chú</p></td>
+			<td colspan="2"><input type="text" style="height: 80px"></td>
+		</tr>
+		<tr>
+			<td><p>Mã xác nhận</p></td>
+			<td><input type="text" ></td>
+		</tr>
+		<tr>
+			<td align="center"><input type="button" value="Đăng ký" onclick="dangky()"></td>
+		</tr>
+	</table>
+
+</body>
+</html>
